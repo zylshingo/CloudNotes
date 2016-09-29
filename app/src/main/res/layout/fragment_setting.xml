@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jikexueyuan.cloudnotes.fragment.SettingFragment">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_set"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="设置"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:paddingRight="35dp" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView style="@style/MyLine" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/anquan" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyDiv" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/biji" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyLine" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/info" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyDiv" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/xiezuo" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyDiv" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/xiwang" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyDiv" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/xiaoxi" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/toogle_btn"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyDiv" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/jinruxiaoxizhongxin" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyDiv" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/yijian" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyDiv" />
+
+            <LinearLayout style="@style/MyListCell">
+
+                <TextView
+                    style="@style/MyText"
+                    android:text="@string/diaocha" />
+
+                <ImageView
+                    style="@style/MyImage"
+                    android:src="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <TextView style="@style/MyLine" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/btn_star_big_on" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
